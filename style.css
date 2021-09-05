@@ -1,0 +1,21 @@
+.container{
+    margin: min(50px,10%) ;
+    display: grid;
+    grid-template-columns: max(60px,10%) max(50px,10%) max(50px,10%) max(50px,10%);
+    
+}
+#display{
+    grid-column: 1 /5;
+    padding-top: 10%;
+    font-size: 25px;
+    border: 2px solid black;
+}
+#res{
+    grid-column: 3;
+    grid-row: 6 /7;
+}
+.num{
+    border: 1px solid black;
+    padding: 30%;
+    font-size: 25px;
+}
