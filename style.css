@@ -1,7 +1,7 @@
 .container{
     margin: min(50px,10%) ;
     display: grid;
-    grid-template-columns: min(150px,15%) min(150px,15%) min(150px,15%) min(150px,15%);
+    grid-template-columns: min(150px,20%) min(150px,20%) min(150px,15%) min(150px,20%);
     
 }
 #display{
