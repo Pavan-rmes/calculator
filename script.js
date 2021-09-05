@@ -57,6 +57,7 @@ function cal(){
             a.trim()
             b.trim()
             a = +a / +b
+            prev = a
             output.value = a
         }
 
